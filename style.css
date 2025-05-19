@@ -1,0 +1,68 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    padding: 4px;
+}
+.btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 800ms;
+    border-radius: 6%;
+
+}
+a:hover{color: #d6ff84}
+div p:hover span{
+     background-color: #ffffff;  
+}
+nav a::before {
+    margin-right: 8px;
+    transition: 0.2s;
+}
+nav a:hover::before{
+    margin-right: 4px;
+}
+footer {
+    padding: 12px;
+    color: #878580;
+    background-color: #282726;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+footer p {
+    margin: 0;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: repeat(1,250px);
+    gap: 10px;
+    text-align: center;
+    margin: 50px;
+}
+.cs{
+    background-color: #ffbe00;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid #FFBE00;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px 0px 15px;
+    border-radius: 6px;
+    border: 2px solid #009afa;
+    padding: 8px 10px;
+}
