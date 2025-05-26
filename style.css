@@ -90,7 +90,7 @@ article {
   background-clip: text;
   color: transparent;
   background-size: 200% 100%;
-  animation: gradientShift 3s linear infinite;
+  animation: gradientShift 60s linear infinite;
 }
 
 @keyframes gradientShift {
