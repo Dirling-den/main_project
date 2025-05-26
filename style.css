@@ -72,3 +72,7 @@ html {
 .textli {
     text-stroke: 2px yellow;
 }
+img {
+    width: 300px;        /* Фиксированная ширина */
+    height: 300px;
+}
