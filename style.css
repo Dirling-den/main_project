@@ -58,9 +58,9 @@ input{
     padding: 8px 10px;
 }
 html {
-    background: linear-gradient(to right, white, black);
     scroll-behavior: smooth;
     align-items: center;
+    background: linear-gradient(to right, white, black);
 }
 .textli {
     text-stroke: 2px yellow;
