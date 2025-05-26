@@ -66,3 +66,6 @@ input{
     border: 2px solid #009afa;
     padding: 8px 10px;
 }
+html {
+    background: linear-gradient(to right, white, black);
+}
