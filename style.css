@@ -9,7 +9,6 @@ nav ul li {
 }
 .btn:hover {
     color: #000000;
-    background-color: #yellow;
     transition: 800ms;
     border-radius: 6%;
 
