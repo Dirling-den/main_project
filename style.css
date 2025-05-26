@@ -58,7 +58,7 @@ input{
     padding: 8px 10px;
 }
 html {
-    background: linear-gradient(to left, white, black);
+    background: linear-gradient(to right, grey, black);
     scroll-behavior: smooth;
 }
 .textli {
