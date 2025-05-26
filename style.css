@@ -66,20 +66,23 @@ html {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr; /* Одна колонка (можно изменить) */
-  grid-template-rows: 1fr 1fr; /* Две строки (1:1 по вертикали) */
-  gap: 16px; /* Расстояние между элементами */
-  align-items: start; /* Выравнивание по верху */
+  grid-template-columns: 100px 1fr; /* Картинка 100px, текст на оставшееся место */
+  gap: 20px;
+  align-items: center; /* Выравнивание по центру по вертикали */
+  max-width: 600px; /* Ограничиваем ширину */
+  border: 2px solid black; /* Черный контур */
+  border-radius: 15px; /* Закругленные углы */
+  padding: 15px;
+  background: white;
 }
 
 .grid-image {
-  width: 300px; /* Растягиваем на всю ширину */
-  height: 400px; /* Занимает всю высоту своей ячейки */
-  object-fit: cover; /* Обрезает изображение, сохраняя пропорции */
-  grid-row: 1; /* Картинка в первой строке */
+  width: 100%; /* Занимает всю ширину своей ячейки */
+  height: auto;
+  border-radius: 10px; /* Закругление у картинки */
+  border: 1px solid #ddd;/* Картинка в первой строке */
 }
 
 .grid-text {
-  grid-row: 2; /* Текст во второй строке */
   padding: 10px;
 }
