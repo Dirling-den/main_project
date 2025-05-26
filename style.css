@@ -9,15 +9,14 @@ nav ul li {
 }
 .btn:hover {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #yellow;
     transition: 800ms;
     border-radius: 6%;
 
 }
-a:hover{color: #d6ff84}
-div p:hover span{
-     background-color: yellow;  
-}
+a:hover{
+    color: #d6ff84
+       }
 nav a::before {
     margin-right: 8px;
     transition: 0.2s;
