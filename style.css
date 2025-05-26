@@ -84,17 +84,22 @@ html {
 article {
     margin: 20px;
 }
-.text { background: linear-gradient(to right, black, white);
+.text {
+  background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 48px;
-  font-weight: bold;
+  background-size: 200% 100%;
+  animation: gradientShift 3s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
 }
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50;
   color: white;
   text-decoration: none;
   border-radius: 5px;
