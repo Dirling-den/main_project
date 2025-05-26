@@ -105,3 +105,29 @@ article {
   border: none;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+    .textli { 
+    font-size: zem;
+    }
+    nav ul {
+        flex-direction: column;
+        aling-items: center;
+    }
+    nav li {
+        margin: 5px 0;
+        width: 80%;
+        text-aling: center;
+    }
+    .grid-container {
+        margin: 15px 0;
+    }
+    .text { 
+    text-aling:center;
+    }
+    form { 
+        width: 90%;
+    }
+    article {
+        padding: 0 10px;
+    }
+}
