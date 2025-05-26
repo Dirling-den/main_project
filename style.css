@@ -91,3 +91,10 @@ html {
 article {
     margin: 20px;
 }
+.text { background: linear-gradient(to right, black, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+      }
